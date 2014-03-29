@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="#ffffff"
+>
+<ImageView 
+	android:id="@+id/row_imageview1"
+	android:cropToPadding="true"
+	android:layout_width="0px" 
+	android:layout_height="fill_parent"
+	android:scaleType="fitCenter"
+	android:layout_weight="1"
+	android:layout_marginTop="3.0px"
+    android:layout_marginLeft="3.0px"
+    android:layout_marginRight="3.0px"
+    android:layout_marginBottom="3.0px"
+    android:contentDescription="@string/icon_image"
+/>
+<TextView 
+	android:id="@+id/row_textview1"
+	android:layout_width="0px" 
+	android:layout_height="wrap_content"
+	android:layout_weight="6"
+	android:focusableInTouchMode="false"
+	android:focusable="false"
+/>
+
+
+<Button
+	android:id="@+id/row_button1"
+	android:layout_width="0px" 
+	android:layout_height="wrap_content"
+	android:text="@string/plus_button"
+	android:layout_weight="1"
+	android:background="@layout/shape_button_corners"
+	android:layout_marginTop="3.0px"
+    android:layout_marginLeft="3.0px"
+    android:layout_marginRight="3.0px"
+    android:layout_marginBottom="3.0px"
+/>
+
+<TextView 
+	android:id="@+id/row_textview2"
+	android:layout_width="0px" 
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:focusableInTouchMode="false"
+	android:focusable="false"
+	android:gravity="center"
+/>
+
+<Button
+	android:id="@+id/row_button2"
+	android:layout_width="0px" 
+	android:layout_height="wrap_content"
+	android:text="@string/minus_button"
+	android:layout_weight="1"
+	android:background="@layout/shape_button_corners"
+	android:layout_marginTop="3.0px"
+    android:layout_marginLeft="3.0px"
+    android:layout_marginRight="3.0px"
+    android:layout_marginBottom="3.0px"
+/>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">caffeine checker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_another">MenuActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="check_button">チェック</string>
+    <string name="plus_button">+</string>
+    <string name="minus_button">-</string>
+    <string name="splash_description">splash</string>
+    <string name="icon_image">icon</string>
+
+</resources>

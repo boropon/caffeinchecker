@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 画面いっぱいにリニアレイアウト（ビューグループ）で表示する。
+     リニアレイアウトの中で、カフェイン含有量チェックする対象のリストと、チェックボタンを表示させる。-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout1">
+        
+    	<!-- カフェイン含有量チェックする対象をリスト表示する。 -->
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="5"
+            android:paddingLeft="20.0px">
+        </ListView>
+
+        <Button
+            android:id="@+id/checkbutton"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:text="@string/check_button"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20.0px"
+            android:layout_marginLeft="20.0px"
+            android:layout_marginRight="20.0px"
+            android:layout_marginBottom="20.0px"
+            android:background="@layout/shape_checkbutton_corners"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceLarge">
+    	</Button>
+</LinearLayout>
